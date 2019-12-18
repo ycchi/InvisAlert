@@ -14,10 +14,10 @@ print ("Product of",num1,"and",num2,"is",product)
 # Largest number in array [10, 427, 12, 80, 572]
 array = [10, 427, 12, 80, 572]
 length = len(array)
-# python function to find maximum 
+# python function to find largest 
 def largestInArray(array, length): 
   
-    # Initialize maximum element 
+    # define initial value of largest
     largest = array[0] 
 
     # loop through array elements from second and compare with every element
